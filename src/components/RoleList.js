@@ -15,7 +15,7 @@ import {
   FormControlLabel,
 } from "@mui/material";
 
-const permissionsList = ["Read", "Write", "Delete"]; // Example permissions
+const permissionsList = ["Read", "Write", "Delete"];
 
 export default function RoleList() {
   const [roles, setRoles] = useState([]);
