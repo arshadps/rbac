@@ -15,7 +15,7 @@ import {
   MenuItem,
 } from "@mui/material";
 
-const roles = ["Admin", "Editor", "Viewer"]; // Example roles
+const roles = ["Admin", "Editor", "Viewer"]; 
 
 export default function UserList() {
   const [users, setUsers] = useState([]);
